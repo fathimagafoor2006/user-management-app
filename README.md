@@ -1,8 +1,8 @@
 # User Management Application
 A responsive web app that fetches users from an API, displays them in Bootstrap cards, and allows live editing using a modal , no page reloads.
 
-# Hi, I'm Fathima Gafoor,
-# The API seems to be down or returning “Unauthorized,” so for testing, I’ve used mock data. With the mock data: users display correctly, edits update live, and everything else works as expected. Once the API is back and the key works, the app will fetch and update real user data automatically
+Hi, I'm Fathima Gafoor,
+The API seems to be down or returning “Unauthorized,” so for testing, I’ve used mock data. With the mock data: users display correctly, edits update live, and everything else works as expected. Once the API is back and the key works, the app will fetch and update real user data automatically
 
 # js/utils/fetchData.js
 ```
