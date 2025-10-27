@@ -1,4 +1,3 @@
-// js/utils/fetchData.js
 export async function fetchUsers() {
   const url = "https://easy-simple-users-rest-api.onrender.com/api/users";
 
@@ -29,3 +28,4 @@ export async function fetchUsers() {
     return []; // Return empty array instead of crashing
   }
 }
+
