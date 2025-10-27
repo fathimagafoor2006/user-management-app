@@ -1,4 +1,3 @@
-// js/utils/putData.js
 const BASE_URL = 'https://easy-simple-users-rest-api.onrender.com/api/users';
 const HEADERS = {
   'Content-Type': 'application/json',
@@ -27,3 +26,4 @@ export async function updateUser(id, payload) {
     throw new Error(`Network error while updating user: ${err.message}`);
   }
 }
+
