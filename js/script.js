@@ -1,4 +1,3 @@
-// js/script.js
 import { fetchUsers } from './utils/fetchData.js';
 import { updateUser } from './utils/putData.js';
 import { createEditForm } from './utils/formFactory.js';
@@ -96,7 +95,7 @@ async function loadData() {
   }
 }
 
-/* ---- Modal & editing ---- */
+
 
 function openEditModal(user) {
   // build modal content
@@ -168,8 +167,9 @@ function updateUserCardInDOM(user) {
   cardCol.replaceWith(newCard);
 }
 
-/* ---- init ---- */
+
 
 document.addEventListener('DOMContentLoaded', () => {
   loadData();
 });
+
