@@ -1,5 +1,3 @@
-// js/utils/formFactory.js
-
 /**
  * createEditForm(user)
  * returns { formEl, getValues } where getValues() returns current values.
@@ -54,3 +52,4 @@ export function createEditForm(user) {
     return String(str).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
   }
 }
+
