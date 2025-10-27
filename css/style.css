@@ -1,4 +1,3 @@
-/* css/styles.css */
 body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
 .card-avatar {
   height: 320px;
@@ -12,3 +11,4 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neu
   .card-avatar { height: 240px; }
   #users-grid .card { min-height: 420px; }
 }
+
